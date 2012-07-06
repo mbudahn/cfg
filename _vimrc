@@ -35,6 +35,7 @@ set splitright
 set guifont=ProggyCleanTT:h12:cDEFAULT
 set laststatus=2
 let NERDTreeChDirMode=2
+let NERDTreeShowHidden=1
 unmap <C-A>
 nmap <silent> <C-D> :NERDTreeToggle<CR>
 imap <F3> <ESC>:BufExplorer<CR>
